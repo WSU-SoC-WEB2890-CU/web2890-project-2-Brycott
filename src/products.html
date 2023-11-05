@@ -1,0 +1,474 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>WEB 2890 - Project 2</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="robots" content="index,follow" />
+    <meta name="description" content="TODO: Project 2 ..." />
+
+    <link rel="stylesheet" href="./stylesheets/main.scss" />
+  </head>
+
+  <body>
+    <!-- NavBar section -->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top bg-warning position-sticky">
+      <div class="container-fluid">
+        <div>
+          <img class="logo w-75" src="images/logo.png" alt="cardeal logo" />
+        </div>
+        <a class="navbar-brand fs-3 ms-5" href="#">Building Better Communities</a>
+        <div>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active fs-4" aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active fs-4" aria-current="page" href="products.html">Products</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active fs-4" aria-current="page" href="services.html">Services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active fs-4" aria-current="page" href="contact.html">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero section -->
+
+    <section
+      class="bg-image"
+      style="background-image: url(images/gravel_site.jpg); height: 75vh; background-size: 100vw 75vh"
+    >
+      <h1 class="text-center pt-5">Products</h1>
+    </section>
+
+    <!-- Product info Section -->
+    <section class="container-fluid pb-5 bg-primary">
+      <div class="container pt-5">
+        <h1 class="text-center mb-5">Towers Sand & Gravel</h1>
+        <div class="d-flex justify-content-evenly">
+          <div class="card border-warning border-3 w-40 me-5">
+            <h3 class="text-center mt-3">Well known</h3>
+            <h4 class="card-body">
+              Towers Sand & Gravel, LLC is among Utah’s most recognized producers of construction aggregates, including:
+              crushed stone, sand and gravel and landscape rock. These materials are produced from natural deposits of
+              various materials.
+            </h4>
+          </div>
+          <div class="card border-warning border-3 w-40 me-5">
+            <h3 class="text-center mt-3">Attention to Detail</h3>
+            <h4 class="card-body">
+              Our attention to quality and detail starts at the source. For over 40 years, we’ve carefully selected and
+              groomed many active soil stripping parcels, gravel pits, and quarries in some of the best locations within
+              Utah. With Towers S&G current variety of rocks, landscape rocks, landscape boulders, gravel mulch, soils,
+              ballast, crushed stone, bedding sand, cobble, and fill dirt; we are sure to meet the requirements of your
+              project.
+            </h4>
+          </div>
+          <div class="card border-warning border-3 w-40">
+            <h3 class="text-center mt-3">Preserve Quality</h3>
+            <h4 class="card-body">
+              Here at Towers Sand & Gravel we don’t start the quarrying process by drilling and blasting rock into
+              smaller pieces, we actual use heavy equipment to preserve the integrity of all preliminary aggregate
+              (boulders). Once appropriately sized pieces are obtained, they are sent through various stages of crushing
+              and screening to produce materials to the sizes and specifications desired by our customers.
+            </h4>
+          </div>
+        </div>
+
+        <div class="d-flex flex-column mt-5">
+          <h3 class="text-center">Product diversity</h3>
+          <h4 class="container mt-4">
+            The geographic diversity of our pits allows us to produce and process a wide variety of different materials
+            – giving you the exact rock you need for your job. Every product we deliver is of the absolute highest
+            quality. Laboratory testing is a mandatory and beneficial part of the process for both our company, and our
+            customers. We perform both Proctor Compaction Tests and Sieve Analysis Tests which are all available upon
+            request. Take a moment to view our products and you’ll soon find, we have the materials you need for your
+            next project.
+          </h4>
+        </div>
+      </div>
+    </section>
+
+    <!--Popular Stone Section-->
+
+    <section class="container">
+      <h1 class="text-center mt-5 mb-5">Popular Stone</h1>
+
+      <div class="d-flex mb-6">
+        <div id="carousel1Captions" class="carousel slide w-50 me-5">
+          <div class="carousel-indicators">
+            <button
+              type="button"
+              data-bs-target="#carousel1Captions"
+              data-bs-slide-to="0"
+              class="active"
+              aria-current="true"
+              aria-label="Slide 1"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carousel1Captions"
+              data-bs-slide-to="1"
+              aria-label="Slide 2"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carousel1Captions"
+              data-bs-slide-to="2"
+              aria-label="Slide 3"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carousel1Captions"
+              data-bs-slide-to="3"
+              aria-label="Slide 4"
+            ></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active text-center">
+              <img src="images/Chocolate_Gravel_mulch.jpg" class="d-block w-100" alt="Chocolate_Gravel_mulch" />
+              <div class="carousel-caption d-none d-md-block text-dark">
+                <h5 class="carousel_text">Chocolate Gravel Mulch</h5>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="images/1_inch_gravel.jpg" class="d-block w-100" alt="1_Inch_Gravel" />
+              <div class="carousel-caption d-none d-md-block text-dark text-center">
+                <h5 class="carousel_text">1" Gravel</h5>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="images/1_half_Inch_Gravel.jpg" class="d-block w-100" alt="1_half_Inch_Gravel" />
+              <div class="carousel-caption d-none d-md-block text-dark text-center">
+                <h5 class="carousel_text">1 1/2" Gravel</h5>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="images/Landscape Rocks.jpg" class="d-block w-100" alt="Landscape_rocks" />
+              <div class="carousel-caption d-none d-md-block text-dark text-center">
+                <h5 class="carousel_text">Landscape Rocks</h5>
+              </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carousel1Captions" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carousel1Captions" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+
+        <div id="carousel2Captions" class="carousel slide w-50">
+          <div class="carousel-indicators">
+            <button
+              type="button"
+              data-bs-target="#carousel2Captions"
+              data-bs-slide-to="0"
+              class="active"
+              aria-current="true"
+              aria-label="Slide 1"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carousel2Captions"
+              data-bs-slide-to="1"
+              aria-label="Slide 2"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carousel2Captions"
+              data-bs-slide-to="2"
+              aria-label="Slide 3"
+            ></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active text-center">
+              <img src="images/1_Inch_Sansburry_Gravel.jpg" class="d-block w-100" alt="1_Inch_Sansburry_Gravel" />
+              <div class="carousel-caption d-none d-md-block text-dark">
+                <h5 class="carousel_text">Stansbury 1″ Gravel</h5>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="images/1_half_Stansburry_Gravel.jpg" class="d-block w-100" alt="1_half_Stansburry_Gravel" />
+              <div class="carousel-caption d-none d-md-block text-dark text-center">
+                <h5 class="carousel_text">Stansbury 1 1/2″ Gravel</h5>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="images/Ballast_Gravel.jpg" class="d-block w-100" alt="ballast" />
+              <div class="carousel-caption d-none d-md-block text-dark text-center">
+                <h5 class="carousel_text">Ballast</h5>
+              </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carousel2Captions" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carousel2Captions" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!--More Qulaity Products-->
+    <section>
+      <h1 class="text-center mt-5 mb-5">More Top Quality Products</h1>
+
+      <div class="container-fluid bg-danger pt-5 pb-1">
+        <div class="container d-flex justify-content-evenly mb-5">
+          <div class="card bg-primary" style="width: 18rem">
+            <img src="images/3_quarter_Crushed_Road_BAse.jpg" class="card-img-top" alt="3_quarter_Crushed_Road_BAse" />
+            <div class="card-body">
+              <p class="card-text">3/4″ Crushed Road Base</p>
+            </div>
+          </div>
+          <div class="card bg-primary" style="width: 18rem">
+            <img src="images/1_inch_gravel_red.jpg" class="card-img-top" alt="1_inch_gravel_red" />
+            <div class="card-body">
+              <p class="card-text">1" Gravel</p>
+            </div>
+          </div>
+          <div class="card bg-primary" style="width: 18rem">
+            <img src="images/Chocolate_Mulch.jpg" class="card-img-top" alt="Chocolate_Mulch" />
+            <div class="card-body">
+              <p class="card-text">Chocolate Mulch</p>
+            </div>
+          </div>
+          <div class="card bg-primary" style="width: 18rem">
+            <img
+              src="images/3_quarter_Crushed_Road_Base_red.jpg"
+              class="card-img-top"
+              alt="3_quarter_Crushed_Road_BAse"
+            />
+            <div class="card-body">
+              <p class="card-text">3/4″ Crushed Road Base</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container-fluid pt-5 pb-1">
+        <div class="container d-flex justify-content-evenly mb-5">
+          <div class="card bg-primary" style="width: 18rem">
+            <img
+              src="images/4_inch_to_6_inch_Crushed_Rock.jpg"
+              class="card-img-top"
+              alt="4_inch_to_6_inch_Crushed_Rock"
+            />
+            <div class="card-body">
+              <p class="card-text">4″-6″ Crushed Rock</p>
+            </div>
+          </div>
+          <div class="card bg-primary" style="width: 18rem">
+            <img src="images/8_to_18_inch_Rip_Rap.jpg" class="card-img-top" alt="8_to_18_inch_Rip_Rap" />
+            <div class="card-body">
+              <p class="card-text">8”-18” Rip Rap</p>
+            </div>
+          </div>
+          <div class="card bg-primary" style="width: 18rem">
+            <img src="images/Landscape_Rocks_Cobble.jpg" class="card-img-top" alt="Landscape_Rocks_Cobble" />
+            <div class="card-body">
+              <p class="card-text">Landscape Rocks</p>
+            </div>
+          </div>
+          <div class="card bg-primary" style="width: 18rem">
+            <img src="images/4_inch_Fractured_Cobble.jpg" class="card-img-top" alt="4_inch_Fractured_Cobble" />
+            <div class="card-body">
+              <p class="card-text">4″ Fractured Coble</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container-fluid bg-danger pt-5 pb-1">
+        <div class="container d-flex justify-content-evenly mb-5">
+          <div class="card bg-primary" style="width: 18rem">
+            <img src="images/Pit_Run.jpg" class="card-img-top" alt="Pit_Run" />
+            <div class="card-body">
+              <p class="card-text">Pit Run</p>
+            </div>
+          </div>
+          <div class="card bg-primary" style="width: 18rem">
+            <img src="images/3_inch_Minus.jpg" class="card-img-top" alt="3_inch_Minus" />
+            <div class="card-body">
+              <p class="card-text">3″ Minus/p></p>
+            </div>
+          </div>
+          <div class="card bg-primary" style="width: 18rem">
+            <img src="images/Chocolate_Mulch.jpg" class="card-img-top" alt="Chocolate_Mulch" />
+            <div class="card-body">
+              <p class="card-text">1 1/2″ Crushed Road Base</p>
+            </div>
+          </div>
+          <div class="card bg-primary" style="width: 18rem">
+            <img src="images/3_quarter_Crushed_Road_BAse.jpg" class="card-img-top" alt="3_quarter_Crushed_Road_BAse" />
+            <div class="card-body">
+              <p class="card-text">Clay</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container-fluid pt-5 pb-1">
+        <div class="container d-flex justify-content-evenly mb-5">
+          <div class="card bg-primary" style="width: 18rem">
+            <img
+              src="images/3_16_of_an_inch Bedding_Sand.jpg"
+              class="card-img-top"
+              alt="3_16_of_an_inch_Bedding_Sand"
+            />
+            <div class="card-body">
+              <p class="card-text">3/16″ Bedding Sand</p>
+            </div>
+          </div>
+          <div class="card bg-primary" style="width: 18rem">
+            <img src="images/Rotomill.jpg" class="card-img-top" alt="Rotomill" />
+            <div class="card-body">
+              <p class="card-text">Rotomill</p>
+            </div>
+          </div>
+          <div class="card bg-primary" style="width: 18rem">
+            <img src="images/8_to_18_inch_Rip_Rap_Red.jpg" class="card-img-top" alt="Chocolate_Mulch" />
+            <div class="card-body">
+              <p class="card-text">8″ – 18″ Rip Rap</p>
+            </div>
+          </div>
+          <div class="card bg-primary" style="width: 18rem">
+            <img src="images/PV_Cobble_1_inch_to_2_inch.jpg" class="card-img-top" alt="PV" />
+            <div class="card-body">
+              <p class="card-text">PV cobble 1” to 2”</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container-fluid bg-danger pt-5 pb-1">
+        <div class="container d-flex justify-content-evenly mb-5">
+          <div class="card bg-primary" style="width: 18rem">
+            <img src="images/PV_Cobble_3_to_5_Inch.jpg" class="card-img-top" alt="PV_Cobble_3_to_5_Inch" />
+            <div class="card-body">
+              <p class="card-text">PV cobble 3” to 5”</p>
+            </div>
+          </div>
+          <div class="card bg-primary" style="width: 18rem">
+            <img src="images/PV_cobble_6_inch_to_8_inch.jpg" class="card-img-top" alt="PV_cobble_6_inch_to_8_inch" />
+            <div class="card-body">
+              <p class="card-text">PV cobble 6” to 8”</p>
+            </div>
+          </div>
+          <div class="card bg-primary" style="width: 18rem">
+            <img src="images/Grey_Shale_Rock.jpg" class="card-img-top" alt="Grey_Shale_Rock" />
+            <div class="card-body">
+              <p class="card-text">Grey Shale Rock (palletized)</p>
+            </div>
+          </div>
+          <div class="card bg-primary" style="width: 18rem">
+            <img src="images/Arizona_Sandstone.jpg" class="card-img-top" alt="Arizona_Sandstone" />
+            <div class="card-body">
+              <p class="card-text">Arizona Sandstone</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container-fluid pt-5 pb-1">
+        <div class="container d-flex justify-content-evenly mb-5">
+          <div class="card bg-primary" style="width: 18rem">
+            <img src="images/1_inch_Arizona_Salt&Pepper.jpg" class="card-img-top" alt="1_inch_Arizona_Salt" />
+            <div class="card-body">
+              <p class="card-text">1″ Arizona Salt & Pepper</p>
+            </div>
+          </div>
+          <div class="card bg-primary" style="width: 18rem">
+            <img src="images/Arizona_Striped.jpg" class="card-img-top" alt="Arizona_Striped" />
+            <div class="card-body">
+              <p class="card-text">Arizona Striped</p>
+            </div>
+          </div>
+          <div class="card bg-primary" style="width: 18rem">
+            <img src="images/Bonanza_Rock.jpg" class="card-img-top" alt="Bonanza_Rock" />
+            <div class="card-body">
+              <p class="card-text">Bonanza Rock</p>
+            </div>
+          </div>
+          <div class="card bg-primary" style="width: 18rem">
+            <img src="images/Bedding_Sand.jpg" class="card-img-top" alt="Bedding_Sand" />
+            <div class="card-body">
+              <p class="card-text">Bedding Sand</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="container mt-5 mb-5">
+      <h4 class="container">
+        Still have questions or would like more information regarding specific laboratory testing for our products? You
+        can view our Frequently Asked Questions page for help. If you can’t find what you are looking for, Butters
+        Companies is always here to help. Our knowledgeable staff is ready to answer your questions. Simply call our
+        office at 801-782-2088, <a class="text-warning contact" href="contact.html">or use our online contact form.</a>
+      </h4>
+    </section>
+
+    <!-- Footer section -->
+    <section class="container-fluid bg-dark h-50 pb-5">
+      <div class="container d-flex justify-content-evenly">
+        <div class="pt-5 ms-5">
+          <h4 class="text-light">Products and services</h4>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item bg-dark text-light"><a href="services.html">Heavy Equipment</a></li>
+            <li class="list-group-item bg-dark text-light"><a href="services.html">Landscaping</a></li>
+            <li class="list-group-item bg-dark text-light"><a href="services.html">Aggergate Production</a></li>
+            <li class="list-group-item bg-dark text-light"><a href="services.html">Earthwork</a></li>
+            <li class="list-group-item bg-dark text-light"><a href="services.html">Disaster Cleanup</a></li>
+          </ul>
+        </div>
+        <div class="pt-5 ms-5">
+          <h4 class="text-light">Hours of Operation</h4>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item bg-dark text-light">Monday through Friday, 7:00am to 5:00pm</li>
+            <li class="list-group-item bg-dark text-light">Saturday, 7:00am to 5:00pm</li>
+            <li class="list-group-item bg-dark text-light">Aggergate Production</li>
+            <li class="list-group-item bg-dark text-light">Closed Sundays</li>
+            <li class="list-group-item bg-dark text-light">Disaster Cleanup</li>
+          </ul>
+        </div>
+        <div class="pt-5 ms-5">
+          <h4 class="text-light">Contact Us Today</h4>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item bg-dark text-light">Main Office: 760 N. Harrisville Rd.</li>
+            <li class="list-group-item bg-dark text-light">Ogden, Utah 84404</li>
+            <li class="list-group-item bg-dark text-light">801-782-2088</li>
+            <li class="list-group-item bg-dark text-light">Closed Sundays</li>
+            <li class="list-group-item bg-dark text-light"><a href="contact.html">Visit our Contact Page</a></li>
+          </ul>
+        </div>
+      </div>
+      <p class="text-light text-center mt-5">Copyright 2020 Butters Companies | All Rights Reserved</p>
+    </section>
+    <script type="module" src="./javascripts/main.js"></script>
+  </body>
+</html>

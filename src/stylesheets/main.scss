@@ -1,3 +1,57 @@
 /* Your styles go here */
+$warning: darkgreen;
+$primary: lightgrey;
+$secondary: #519e00;
+$danger: darkgrey;
+
+$utilities: (
+  "width": (
+    property: width,
+    class: w,
+    values: (
+      10: 10%,
+      15: 15%,
+      25: 25%,
+      40: 40%,
+      50: 50%,
+      75: 75%,
+      100: 100%,
+      auto: auto,
+    ),
+  ),
+);
+$spacer: 1rem;
+$spacers: (
+  0: 0,
+  1: $spacer * 0.25,
+  2: $spacer * 0.5,
+  3: $spacer,
+  4: $spacer * 1.5,
+  5: $spacer * 3,
+  6: $spacer * 3.5,
+  7: $spacer * 4.5,
+  8: $spacer * 5,
+  9: $spacer * 5.5,
+  10: $spacer * 6,
+);
+
 @import "bootstrap/scss/bootstrap.scss";
 @import "bootstrap-icons/font/bootstrap-icons.css";
+
+h1,
+h2,
+h3,
+h4,
+a {
+  text-decoration: none;
+}
+
+.products_link:hover,
+.text_link:hover,
+.contact:hover {
+  opacity: 0.5;
+}
+
+.carousel_text {
+  background-color: darkgrey;
+}

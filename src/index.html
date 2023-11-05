@@ -1,28 +1,340 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>WEB 2890 - Project 2</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="robots" content="index,follow" />
+    <meta name="description" content="TODO: Project 2 ..." />
 
-<head>
-  <meta charset="utf-8">
-  <title>WEB 2890 - Project 2</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="robots" content="index,follow">
-  <meta name="description" content="TODO: Project 2 ...">
+    <link rel="stylesheet" href="./stylesheets/main.scss" />
+  </head>
 
-  <link rel="stylesheet" href="./stylesheets/main.scss">
-</head>
+  <body class="bg-primary">
+    <!-- NavBar section -->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top bg-warning position-sticky">
+      <div class="container-fluid">
+        <div>
+          <img class="logo w-75" src="images/logo.png" alt="cardeal logo" />
+        </div>
+        <a class="navbar-brand fs-3 ms-5" href="#">Building Better Communities</a>
+        <div>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active fs-4" aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active fs-4" aria-current="page" href="products.html">Products</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active fs-4" aria-current="page" href="services.html">Services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active fs-4" aria-current="page" href="contact.html">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
 
-<body>
-  <!-- Your HTML goes here -->
-  <h1 class="display-2 text-center my-5 py-5">
-    <span class="d-block py-5 mt-5">
-      <i class="bi bi-filetype-html text-primary"></i> / 
-      <i class="bi bi-filetype-css text-danger"></i> / 
-      <i class="bi bi-filetype-js text-success"></i>
-    </span>
-    
-    Project 2: A multiple-page project of your choosing.
-  </h1>
+    <!-- Hero section -->
 
-  <script type="module" src="./javascripts/main.js"></script>
-</body>
+    <section
+      class="bg-image container-fluid d-flex"
+      style="background-image: url(images/hero_image.jpg); height: 75vh; background-size: 100vw 75vh"
+    >
+      <div class="text-center hero_text w-50 mt-5" style="color: white">
+        <h1 class="bg-dark rounded" style="--bs-bg-opacity: 0.5">We are the clear choice.</h1>
+        <h1 class="bg-dark rounded" style="--bs-bg-opacity: 0.5">
+          Our promise is to offer high quality service, at a reasonable price
+        </h1>
+      </div>
+    </section>
+
+    <div class="container d-flex flex-column">
+      <h1 class="text-center mt-5">Who we are</h1>
+      <p class="container fs-2 mt-5 text-center align-items-center">
+        Our company is a family owned and operated business, and we have been “Building Better Communities” for over 35
+        years. From the construction of highways and schools to neighborhoods, the Mission of the C.E. Butters Companies
+        is to provide the greatest economic benefit, quality, value added service, workmanship, and overall prosperity
+        to our customers, owners and employees.
+      </p>
+    </div>
+
+    <!-- Products and Services section -->
+    <section class="mb-5">
+      <h1 class="text-center m-5">PRODUCT AND SERVICES</h1>
+
+      <div class="container d-flex justify-content-evenly">
+        <div class="list-group fs-3 w-40">
+          <h3>Products</h3>
+          <p class="fs-5">
+            We offer a massive selection of aggregate products from our production facility. Everything from Road Base
+            to Gravel, Sand to Landscape Rock. All are of the absolute highest quality and ready for your next project.
+          </p>
+          <a href="#" class="mt-3 list-group-item list-group-item-action list-group-item-warning"
+            >Landscaping Boulders</a
+          >
+          <a href="#" class="list-group-item list-group-item-action">Construction Materials</a>
+          <a href="#" class="list-group-item list-group-item-action list-group-item-warning">Residential Materials</a>
+          <a href="#" class="list-group-item list-group-item-action">Commercial Materials</a>
+
+          <a href="#" class="list-group-item list-group-item-action list-group-item-warning">Recycled Materials</a>
+          <a href="#" class="list-group-item list-group-item-action">Sand</a>
+          <a href="#" class="list-group-item list-group-item-action list-group-item-warning">Topsoil</a>
+          <div class="text-center mt-3">
+            <a class="btn btn-warning fs-4" href="products.html" role="button">Visit our list of Products</a>
+          </div>
+        </div>
+        <div class="list-group fs-3 w-40">
+          <h3>Services</h3>
+          <p class="fs-5">
+            From the construction of highways, schools, and neighborhoods, the mission of Butters Companies is simple.
+            We provide the greatest economic benefit, quality, value added service, and workmanship to our customers.
+          </p>
+          <a href="#" class="mt-3 list-group-item list-group-item-action list-group-item-warning">Excavation</a>
+          <a href="#" class="list-group-item list-group-item-action">Waste Water Systems</a>
+
+          <a href="#" class="list-group-item list-group-item-action list-group-item-warning">Site Improvements</a>
+
+          <a href="#" class="list-group-item list-group-item-action">Subdivision Developments</a>
+
+          <a href="#" class="list-group-item list-group-item-action list-group-item-warning">Public Works Projects</a>
+
+          <a href="#" class="list-group-item list-group-item-action"> Underground Utilities</a>
+
+          <a href="#" class="list-group-item list-group-item-action list-group-item-warning">Erosion Control</a>
+          <div class="text-center mt-3">
+            <a class="btn btn-warning fs-4" href="services.html" role="button">Visit our list of Services</a>
+          </div>
+        </div>
+      </div>
+      <h1 class="text-center mt-5">What we provide</h1>
+
+      <div class="container">
+        <p class="container mt-5 mb-5 fs-4">
+          When it comes to your next project, picking the right partner to help you every step of the way is important.
+          You need someone you can trust and rely on 100%. This is where Butters Companies comes into play. We have
+          years of experience helping our communities grow and prosper. We can handle just about any job and provide
+          excellent service from start to finish.
+        </p>
+
+        <p class="container mt-5 mb-5 fs-5">
+          Our wide range of expertise is what sets us apart from the rest. We have professionals ready to work for you.
+          Some services include Logistics, Local Hauling, Truck Leasing, Highway Construction and Environmental
+          Reclamation. When you’re ready to start your new business or build that dream home you’ve always wanted, call
+          on Butters Companies. Commercial Site and Subdivision development is something we do best. We start with your
+          Excavation and Earthwork, then we are ready to assist you with everything from Underground Utilities to Septic
+          and Wastewater Treatment Systems.
+        </p>
+
+        <p class="container mt-5 mb-5 fs-4">
+          Last but not least, we also pride ourselves in our landscaping abilities. Butters Companies has our own pit
+          where all of our Aggregate Production takes place. We produce and sell a wide variety of aggregates ranging
+          from sand and topsoil, to rocks, gravel, and massive boulders. We truly have it all!
+        </p>
+      </div>
+    </section>
+
+    <!-- Frequently asked questions section -->
+    <section class="pb-10">
+      <h1 class="text-center m-5">Frequently Asked Questions</h1>
+
+      <div class="accordion container" id="accordionExample">
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button
+              class="accordion-button"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapseOne"
+              aria-expanded="true"
+              aria-controls="collapseOne"
+            >
+              <strong>How many pounds are in a ton?</strong>
+            </button>
+          </h2>
+          <div id="collapseOne" class="accordion-collapse collapse show">
+            <div class="accordion-body">There are 2,000 pounds in a ton.</div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button
+              class="accordion-button collapsed"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapseTwo"
+              aria-expanded="false"
+              aria-controls="collapseTwo"
+            >
+              <strong>How do you calculate the square footage for gravel?</strong>
+            </button>
+          </h2>
+          <div id="collapseTwo" class="accordion-collapse collapse">
+            <div class="accordion-body">
+              Multiply the length times the width to get square footage, and then divide by the gravels approximate
+              coverage based on 2” of depth using our coverage chart.
+            </div>
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button
+              class="accordion-button collapsed"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapseThree"
+              aria-expanded="false"
+              aria-controls="collapseThree"
+            >
+              <strong>What is the difference between screened, minus, and washed rock?</strong>
+            </button>
+          </h2>
+          <div id="collapseThree" class="accordion-collapse collapse">
+            <div class="accordion-body">
+              The size of rock refers to the amount of fines or dirt that goes through the screening process and ends up
+              in the final product. The three most common size variances include minus, screened, and rip rap. “Minus”
+              rock can contain up to 80% fines, making it look more like a pile of sand with a little rock content.
+              “Screened” rock typically contains between 20% and 40% fines while, “Rap Rap” is considered chunky
+              material.
+            </div>
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button
+              class="accordion-button collapsed"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapseFour"
+              aria-expanded="false"
+              aria-controls="collapseFour"
+            >
+              <strong>How can I get rock smaples?</strong>
+            </button>
+          </h2>
+          <div id="collapseFour" class="accordion-collapse collapse">
+            <div class="accordion-body">
+              You can contact anyone in our sales department to request a product sample.
+              <a href="contact.html">Contact us</a>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button
+              class="accordion-button collapsed"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapseFive"
+              aria-expanded="false"
+              aria-controls="collapseFive"
+            >
+              <strong>What forms of payment do you accept?</strong>
+            </button>
+          </h2>
+          <div id="collapseFive" class="accordion-collapse collapse">
+            <div class="accordion-body">We accept cash, check, Visa, MasterCard, Discover and American Express.</div>
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button
+              class="accordion-button collapsed"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapseSix"
+              aria-expanded="false"
+              aria-controls="collapseSix"
+            >
+              <strong>Can I establish credit terms with Towers Sand & Gravel, LLC?</strong>
+            </button>
+          </h2>
+          <div id="collapseSix" class="accordion-collapse collapse">
+            <div class="accordion-body">
+              Please contact our credit manager at 801-782-2088 and we will be happy to fax or email you our credit
+              application. Please allow 2-3 weeks time for processing.
+            </div>
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button
+              class="accordion-button collapsed"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapseSeven"
+              aria-expanded="false"
+              aria-controls="collapseSeven"
+            >
+              <strong>What is xeriscaping?</strong>
+            </button>
+          </h2>
+          <div id="collapseSeven" class="accordion-collapse collapse">
+            <div class="accordion-body">
+              Xeriscaping refers to a type of landscaping which involves using native plant species and decorative rock
+              to reduce or eliminate the need for irrigation.
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer section -->
+    <section class="container-fluid bg-dark h-50 pb-5">
+      <div class="container d-flex justify-content-evenly">
+        <div class="pt-5 ms-5">
+          <h4 class="text-light">Products and services</h4>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item bg-dark text-light"><a href="services.html">Heavy Equipment</a></li>
+            <li class="list-group-item bg-dark text-light"><a href="services.html">Landscaping</a></li>
+            <li class="list-group-item bg-dark text-light"><a href="services.html">Aggergate Production</a></li>
+            <li class="list-group-item bg-dark text-light"><a href="services.html">Earthwork</a></li>
+            <li class="list-group-item bg-dark text-light"><a href="services.html">Disaster Cleanup</a></li>
+          </ul>
+        </div>
+        <div class="pt-5 ms-5">
+          <h4 class="text-light">Hours of Operation</h4>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item bg-dark text-light">Monday through Friday, 7:00am to 5:00pm</li>
+            <li class="list-group-item bg-dark text-light">Saturday, 7:00am to 5:00pm</li>
+            <li class="list-group-item bg-dark text-light">Aggergate Production</li>
+            <li class="list-group-item bg-dark text-light">Closed Sundays</li>
+            <li class="list-group-item bg-dark text-light">Disaster Cleanup</li>
+          </ul>
+        </div>
+        <div class="pt-5 ms-5">
+          <h4 class="text-light">Contact Us Today</h4>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item bg-dark text-light">Main Office: 760 N. Harrisville Rd.</li>
+            <li class="list-group-item bg-dark text-light">Ogden, Utah 84404</li>
+            <li class="list-group-item bg-dark text-light">801-782-2088</li>
+            <li class="list-group-item bg-dark text-light">Closed Sundays</li>
+            <li class="list-group-item bg-dark text-light"><a href="contact.html">Visit our Contact Page</a></li>
+          </ul>
+        </div>
+      </div>
+      <p class="text-light text-center mt-5">Copyright 2020 Butters Companies | All Rights Reserved</p>
+    </section>
+
+    <script type="module" src="./javascripts/main.js"></script>
+  </body>
 </html>

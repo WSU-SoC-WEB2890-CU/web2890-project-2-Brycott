@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>WEB 2890 - Project 2</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="robots" content="index,follow" />
+    <meta name="description" content="TODO: Project 2 ..." />
+
+    <link rel="stylesheet" href="./stylesheets/main.scss" />
+  </head>
+
+  <body class="bg-primary">
+    <!-- NavBar section -->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top bg-warning position-sticky">
+      <div class="container-fluid">
+        <div>
+          <img class="logo w-75" src="images/logo.png" alt="cardeal logo" />
+        </div>
+        <a class="navbar-brand fs-3 ms-5" href="#">Building Better Communities</a>
+        <div>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active fs-4" aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active fs-4" aria-current="page" href="products.html">Products</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active fs-4" aria-current="page" href="services.html">Services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active fs-4" aria-current="page" href="contact.html">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Contact section -->
+    <section class="container-fluid">
+      <h1 class="text-center mt-5">Contact Us</h1>
+      <div class="d-flex justify-content-evenly mt-5 mb-5">
+        <div class="w-50">
+          <p class="container fs-5 mt-5">
+            You have questions, we have answers. Please complete the form below and we will respond to your inquiry as
+            soon as possible.
+          </p>
+          <form class="container">
+            <div class="mb-3">
+              <label for="InputName" class="form-label">Your Name (Required)</label>
+              <input type="name" class="form-control" id="InputName" aria-describedby="nameHelp" />
+              <div id="nameHelp" class="form-text">Please enter your first and last name</div>
+            </div>
+            <div class="mb-3">
+              <label for="InputEmail" class="form-label">Email address (Required)</label>
+              <input type="email" class="form-control" id="InputEmail" aria-describedby="emailHelp" />
+              <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+            </div>
+            <div class="mb-3">
+              <label for="InputMessage" class="form-label">Your Message</label>
+              <input type="name" class="form-control" id="InputName" aria-describedby="nameHelp" />
+            </div>
+            <button type="submit" class="btn btn-secondary fs-5 mt-2 w-15">Send</button>
+          </form>
+        </div>
+        <div>
+          <h1 class="text-secondary">Main Office</h1>
+          <ul class="list-group list-group-flush mt-3">
+            <li class="list-group-item">760 N. Harrisville Rd.</li>
+            <li class="list-group-item">Ogden, Utah 84404</li>
+            <li class="list-group-item">Office: 801-782-2088</li>
+            <li class="list-group-item">Fax: 801-782-1515</li>
+          </ul>
+
+          <h1 class="mt-5 text-secondary">Our Pit</h1>
+          <ul class="list-group list-group-flush mt-3">
+            <li class="list-group-item">1476 West 4300 North</li>
+            <li class="list-group-item">Pleasant View, Utah</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer section -->
+    <section class="container-fluid bg-dark h-50 pb-5">
+      <div class="container d-flex justify-content-evenly">
+        <div class="pt-5 ms-5">
+          <h4 class="text-light">Products and services</h4>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item bg-dark text-light"><a href="services.html">Heavy Equipment</a></li>
+            <li class="list-group-item bg-dark text-light"><a href="services.html">Landscaping</a></li>
+            <li class="list-group-item bg-dark text-light"><a href="services.html">Aggergate Production</a></li>
+            <li class="list-group-item bg-dark text-light"><a href="services.html">Earthwork</a></li>
+            <li class="list-group-item bg-dark text-light"><a href="services.html">Disaster Cleanup</a></li>
+          </ul>
+        </div>
+        <div class="pt-5 ms-5">
+          <h4 class="text-light">Hours of Operation</h4>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item bg-dark text-light">Monday through Friday, 7:00am to 5:00pm</li>
+            <li class="list-group-item bg-dark text-light">Saturday, 7:00am to 5:00pm</li>
+            <li class="list-group-item bg-dark text-light">Aggergate Production</li>
+            <li class="list-group-item bg-dark text-light">Closed Sundays</li>
+            <li class="list-group-item bg-dark text-light">Disaster Cleanup</li>
+          </ul>
+        </div>
+        <div class="pt-5 ms-5">
+          <h4 class="text-light">Contact Us Today</h4>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item bg-dark text-light">Main Office: 760 N. Harrisville Rd.</li>
+            <li class="list-group-item bg-dark text-light">Ogden, Utah 84404</li>
+            <li class="list-group-item bg-dark text-light">801-782-2088</li>
+            <li class="list-group-item bg-dark text-light">Closed Sundays</li>
+            <li class="list-group-item bg-dark text-light"><a href="contact.html">Visit our Contact Page</a></li>
+          </ul>
+        </div>
+      </div>
+      <p class="text-light text-center mt-5">Copyright 2020 Butters Companies | All Rights Reserved</p>
+      <script type="module" src="./javascripts/main.js"></script>
+    </section>
+  </body>
+</html>
