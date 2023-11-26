@@ -35,6 +35,15 @@ $spacers: (
   10: $spacer * 6,
 );
 
+$grid-breakpoints: (
+  xs: 0,
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1200px,
+  xxl: 1400px,
+);
+
 @import "bootstrap/scss/bootstrap.scss";
 @import "bootstrap-icons/font/bootstrap-icons.css";
 
@@ -54,4 +63,58 @@ a {
 
 .carousel_text {
   background-color: darkgrey;
+}
+
+.list a:hover,
+.list a.active {
+  text-decoration: underline;
+  text-underline-offset: 0.5rem;
+  text-decoration-thickness: 4px;
+}
+
+.message {
+  height: 10rem;
+}
+@include media-breakpoint-down(md) {
+  body {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .footer {
+    display: flex;
+    flex-direction: column !important;
+    text-align: center;
+    //flex-wrap: wrap;
+  }
+
+  .products_services {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .products_info {
+    flex-direction: column;
+    gap: 3rem;
+
+    div {
+      width: 100% !important;
+    }
+  }
+
+  .contact_info {
+    flex-direction: column !important;
+    width: 100%;
+    justify-content: center !important;
+    margin: auto;
+
+    div {
+      width: 100% !important;
+    }
+
+    .about {
+      width: 50%;
+      text-align: center;
+    }
+  }
 }

@@ -17,7 +17,7 @@
         <div>
           <img class="logo w-75" src="images/logo.png" alt="cardeal logo" />
         </div>
-        <a class="navbar-brand fs-3 ms-5" href="#">Building Better Communities</a>
+        <a class="navbar-brand fs-3 ms-5 text-light" href="#">Building Better Communities</a>
         <div>
           <button
             class="navbar-toggler"
@@ -30,19 +30,19 @@
           >
             <span class="navbar-toggler-icon"></span>
           </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <div class="collapse navbar-collapse list" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link active fs-4" aria-current="page" href="index.html">Home</a>
+                <a class="nav-link active fs-4 text-light" aria-current="page" href="index.html">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link active fs-4" aria-current="page" href="products.html">Products</a>
+                <a class="nav-link fs-4 text-light" aria-current="page" href="products.html">Products</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link active fs-4" aria-current="page" href="services.html">Services</a>
+                <a class="nav-link fs-4 text-light" aria-current="page" href="services.html">Services</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link active fs-4" aria-current="page" href="contact.html">Contact</a>
+                <a class="nav-link fs-4 text-light" aria-current="page" href="contact.html">Contact</a>
               </li>
             </ul>
           </div>
@@ -53,7 +53,7 @@
     <!-- Hero section -->
 
     <section
-      class="bg-image container-fluid d-flex"
+      class="bg-image container-fluid d-flex justify-content-center"
       style="background-image: url(images/hero_image.jpg); height: 75vh; background-size: 100vw 75vh"
     >
       <div class="text-center hero_text w-50 mt-5" style="color: white">
@@ -78,45 +78,42 @@
     <section class="mb-5">
       <h1 class="text-center m-5">PRODUCT AND SERVICES</h1>
 
-      <div class="container d-flex justify-content-evenly">
-        <div class="list-group fs-3 w-40">
+      <div class="container d-flex justify-content-evenly products_services gap-5">
+        <div class="list-group fs-3">
           <h3>Products</h3>
           <p class="fs-5">
             We offer a massive selection of aggregate products from our production facility. Everything from Road Base
             to Gravel, Sand to Landscape Rock. All are of the absolute highest quality and ready for your next project.
           </p>
-          <a href="#" class="mt-3 list-group-item list-group-item-action list-group-item-warning"
-            >Landscaping Boulders</a
-          >
-          <a href="#" class="list-group-item list-group-item-action">Construction Materials</a>
-          <a href="#" class="list-group-item list-group-item-action list-group-item-warning">Residential Materials</a>
-          <a href="#" class="list-group-item list-group-item-action">Commercial Materials</a>
 
-          <a href="#" class="list-group-item list-group-item-action list-group-item-warning">Recycled Materials</a>
-          <a href="#" class="list-group-item list-group-item-action">Sand</a>
-          <a href="#" class="list-group-item list-group-item-action list-group-item-warning">Topsoil</a>
+          <ul class="list-group mt-3">
+            <li class="list-group-item list-group-item-warning">Construction Materials</li>
+            <li class="list-group-item">Residential Materials</li>
+            <li class="list-group-item list-group-item-warning">Commercial Materials</li>
+            <li class="list-group-item">Recycled Materials</li>
+            <li class="list-group-item list-group-item-warning">Sand</li>
+            <li class="list-group-item">Underground Utilities</li>
+            <li class="list-group-item list-group-item-warning">Topsoil</li>
+          </ul>
           <div class="text-center mt-3">
             <a class="btn btn-warning fs-4" href="products.html" role="button">Visit our list of Products</a>
           </div>
         </div>
-        <div class="list-group fs-3 w-40">
+        <div class="list-group fs-3">
           <h3>Services</h3>
           <p class="fs-5">
             From the construction of highways, schools, and neighborhoods, the mission of Butters Companies is simple.
             We provide the greatest economic benefit, quality, value added service, and workmanship to our customers.
           </p>
-          <a href="#" class="mt-3 list-group-item list-group-item-action list-group-item-warning">Excavation</a>
-          <a href="#" class="list-group-item list-group-item-action">Waste Water Systems</a>
-
-          <a href="#" class="list-group-item list-group-item-action list-group-item-warning">Site Improvements</a>
-
-          <a href="#" class="list-group-item list-group-item-action">Subdivision Developments</a>
-
-          <a href="#" class="list-group-item list-group-item-action list-group-item-warning">Public Works Projects</a>
-
-          <a href="#" class="list-group-item list-group-item-action"> Underground Utilities</a>
-
-          <a href="#" class="list-group-item list-group-item-action list-group-item-warning">Erosion Control</a>
+          <ul class="list-group mt-3">
+            <li class="list-group-item list-group-item-warning">Excavation</li>
+            <li class="list-group-item">Waste Water Systems</li>
+            <li class="list-group-item list-group-item-warning">Site Improvements</li>
+            <li class="list-group-item">Subdivision Developments</li>
+            <li class="list-group-item list-group-item-warning">Public Works Projects</li>
+            <li class="list-group-item">Underground Utilities</li>
+            <li class="list-group-item list-group-item-warning">Erosion Control</li>
+          </ul>
           <div class="text-center mt-3">
             <a class="btn btn-warning fs-4" href="services.html" role="button">Visit our list of Services</a>
           </div>
@@ -124,7 +121,39 @@
       </div>
       <h1 class="text-center mt-5">What we provide</h1>
 
-      <div class="container">
+      <div class="d-flex justify-content-evenly products_info container gap-5">
+        <div class="card border-warning border-3 w-40">
+          <h2 class="text-center mt-3">Trust</h2>
+          <h5 class="card-body">
+            When it comes to your next project, picking the right partner to help you every step of the way is
+            important. You need someone you can trust and rely on 100%. This is where Butters Companies comes into play.
+            We have years of experience helping our communities grow and prosper. We can handle just about any job and
+            provide excellent service from start to finish.
+          </h5>
+        </div>
+        <div class="card border-warning border-3 w-40">
+          <h2 class="text-center mt-3">Expertise</h2>
+          <h5 class="card-body">
+            Our wide range of expertise is what sets us apart from the rest. We have professionals ready to work for
+            you. Some services include Logistics, Local Hauling, Truck Leasing, Highway Construction and Environmental
+            Reclamation. When you’re ready to start your new business or build that dream home you’ve always wanted,
+            call on Butters Companies. Commercial Site and Subdivision development is something we do best. We start
+            with your Excavation and Earthwork, then we are ready to assist you with everything from Underground
+            Utilities to Septic and Wastewater Treatment Systems.
+          </h5>
+        </div>
+        <div class="card border-warning border-3 w-40">
+          <h2 class="text-center mt-3">Quality Product</h2>
+          <h5 class="card-body">
+            Last but not least, we also pride ourselves in our landscaping abilities. Butters Companies has our own pit
+            where all of our Aggregate Production takes place. We produce and sell a wide variety of aggregates ranging
+            from sand and topsoil, to rocks, gravel, and massive boulders. We truly have it all!
+          </h5>
+        </div>
+      </div>
+
+      <!--
+      <div class="container d-flex">
         <p class="container mt-5 mb-5 fs-4">
           When it comes to your next project, picking the right partner to help you every step of the way is important.
           You need someone you can trust and rely on 100%. This is where Butters Companies comes into play. We have
@@ -132,7 +161,7 @@
           excellent service from start to finish.
         </p>
 
-        <p class="container mt-5 mb-5 fs-5">
+        <p class="container mt-5 mb-5 fs-4">
           Our wide range of expertise is what sets us apart from the rest. We have professionals ready to work for you.
           Some services include Logistics, Local Hauling, Truck Leasing, Highway Construction and Environmental
           Reclamation. When you’re ready to start your new business or build that dream home you’ve always wanted, call
@@ -147,6 +176,7 @@
           from sand and topsoil, to rocks, gravel, and massive boulders. We truly have it all!
         </p>
       </div>
+      -->
     </section>
 
     <!-- Frequently asked questions section -->
@@ -300,7 +330,7 @@
 
     <!-- Footer section -->
     <section class="container-fluid bg-dark h-50 pb-5">
-      <div class="container d-flex justify-content-evenly">
+      <div class="container d-flex justify-content-evenly footer">
         <div class="pt-5 ms-5">
           <h4 class="text-light">Products and services</h4>
           <ul class="list-group list-group-flush">

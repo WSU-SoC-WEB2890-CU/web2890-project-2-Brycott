@@ -17,7 +17,7 @@
         <div>
           <img class="logo w-75" src="images/logo.png" alt="cardeal logo" />
         </div>
-        <a class="navbar-brand fs-3 ms-5" href="#">Building Better Communities</a>
+        <a class="navbar-brand fs-3 ms-5 text-light" href="#">Building Better Communities</a>
         <div>
           <button
             class="navbar-toggler"
@@ -30,19 +30,19 @@
           >
             <span class="navbar-toggler-icon"></span>
           </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <div class="collapse navbar-collapse list" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link active fs-4" aria-current="page" href="index.html">Home</a>
+                <a class="nav-link fs-4 text-light" aria-current="page" href="index.html">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link active fs-4" aria-current="page" href="products.html">Products</a>
+                <a class="nav-link fs-4 text-light" aria-current="page" href="products.html">Products</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link active fs-4" aria-current="page" href="services.html">Services</a>
+                <a class="nav-link fs-4 text-light" aria-current="page" href="services.html">Services</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link active fs-4" aria-current="page" href="contact.html">Contact</a>
+                <a class="nav-link active fs-4 text-light" aria-current="page" href="contact.html">Contact</a>
               </li>
             </ul>
           </div>
@@ -53,7 +53,22 @@
     <!-- Contact section -->
     <section class="container-fluid">
       <h1 class="text-center mt-5">Contact Us</h1>
-      <div class="d-flex justify-content-evenly mt-5 mb-5">
+      <div class="d-flex justify-content-evenly mt-5 mb-5 contact_info flex-row-reverse">
+        <div class="about">
+          <h1 class="text-secondary">Main Office</h1>
+          <ul class="list-group list-group-flush mt-3">
+            <li class="list-group-item">760 N. Harrisville Rd.</li>
+            <li class="list-group-item">Ogden, Utah 84404</li>
+            <li class="list-group-item">Office: 801-782-2088</li>
+            <li class="list-group-item">Fax: 801-782-1515</li>
+          </ul>
+
+          <h1 class="mt-5 text-secondary">Our Pit</h1>
+          <ul class="list-group list-group-flush mt-3">
+            <li class="list-group-item">1476 West 4300 North</li>
+            <li class="list-group-item">Pleasant View, Utah</li>
+          </ul>
+        </div>
         <div class="w-50">
           <p class="container fs-5 mt-5">
             You have questions, we have answers. Please complete the form below and we will respond to your inquiry as
@@ -72,32 +87,17 @@
             </div>
             <div class="mb-3">
               <label for="InputMessage" class="form-label">Your Message</label>
-              <input type="name" class="form-control" id="InputName" aria-describedby="nameHelp" />
+              <input type="name" class="form-control message" id="InputName" aria-describedby="nameHelp" />
             </div>
-            <button type="submit" class="btn btn-secondary fs-5 mt-2 w-15">Send</button>
+            <button type="submit" class="btn btn-secondary fs-5 mt-2 mw-15">Send</button>
           </form>
-        </div>
-        <div>
-          <h1 class="text-secondary">Main Office</h1>
-          <ul class="list-group list-group-flush mt-3">
-            <li class="list-group-item">760 N. Harrisville Rd.</li>
-            <li class="list-group-item">Ogden, Utah 84404</li>
-            <li class="list-group-item">Office: 801-782-2088</li>
-            <li class="list-group-item">Fax: 801-782-1515</li>
-          </ul>
-
-          <h1 class="mt-5 text-secondary">Our Pit</h1>
-          <ul class="list-group list-group-flush mt-3">
-            <li class="list-group-item">1476 West 4300 North</li>
-            <li class="list-group-item">Pleasant View, Utah</li>
-          </ul>
         </div>
       </div>
     </section>
 
     <!-- Footer section -->
     <section class="container-fluid bg-dark h-50 pb-5">
-      <div class="container d-flex justify-content-evenly">
+      <div class="container d-flex justify-content-evenly footer">
         <div class="pt-5 ms-5">
           <h4 class="text-light">Products and services</h4>
           <ul class="list-group list-group-flush">
